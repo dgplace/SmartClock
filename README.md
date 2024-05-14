@@ -1,3 +1,5 @@
+![Image](https://github.com/dgplace/SmartClock/blob/main/IMG_0371.jpeg)
+
 Code for Alarm clock using 64x8 Matrix LED & RaspberryPi Pico W.
 
 You can use Thonny to upload to you Raspeberry Pi Pico (https://thonny.org)
