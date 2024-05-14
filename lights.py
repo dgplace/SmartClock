@@ -12,6 +12,9 @@ class Light:
         self.isOn = False
 
     def fade(self) ->bool: 
+        ################
+        ################ SET YOUR HUEBRIDGE API URL
+        ################
         url = "http://<your-hue-bride-api>/lights/{l:01d}".format(l= self.light)
         response = urequests.get(url)
         if response.status_code == 200: # query success
@@ -33,6 +36,9 @@ class Light:
 
 
     def checkLight(self) : 
+        ################
+        ################ SET YOUR HUEBRIDGE API URL
+        ################
         url = "http://<your-hue-bride-api>/lights/{l:01d}".format(l= self.light)
         response = urequests.get(url)
         if response.status_code == 200: # query success
@@ -45,6 +51,9 @@ class Light:
             self.isOn = current_on                               
             
     def switchOn(self) : 
+        ################
+        ################ SET YOUR HUEBRIDGE API URL
+        ################
         url = "http://<your-hue-bride-api>/lights/{l:01d}".format(l= self.light)
         response = urequests.get(url)
         if response.status_code == 200: # query success
@@ -63,6 +72,9 @@ class Light:
 
 
     def switchOff(self) : 
+        ################
+        ################ SET YOUR HUEBRIDGE API URL
+        ################
         url = "http://<your-hue-bride-api>/lights/{l:01d}".format(l= self.light)
         response = urequests.get(url)
         if response.status_code == 200: # query success

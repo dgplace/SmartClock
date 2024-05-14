@@ -43,9 +43,12 @@ display.show()
 wlan = network.WLAN(network.STA_IF) #initialize the wlan object
 wlan.active(True) #activates the wlan interface
 accessPoints = wlan.scan() #perform a WiFi Access Points scan
-
 # set power mode to get WiFi power-saving off (if needed)
 wlan.config(pm = 0xa11140)
+
+################
+################ ADD YOUR WIFI DETAILS BELOW
+################
 wlan.connect('<your wifi name>', '<your wifi password>')
 
 while not wlan.isconnected() and wlan.status() >= 0:

@@ -10,7 +10,12 @@ class DisplayTime:
 
     _rtc = RTC()
     _timer_rtc = Timer()
-    _url = "http://worldtimeapi.org/api/timezone/Australia/Brisbane" # see http://worldtimeapi.org/timezones
+
+    ################
+    ################ SET YOUR TIMEZONE BELOW
+    ################
+
+    _url = "http://worldtimeapi.org/api/timezone/Australia/Sydney" # see http://worldtimeapi.org/timezones
     _web_query_delay = 600000 # ms interval time of web JSON query
     _retry_delay = 5000 # ms interval time of retry after a failed Web query
 
