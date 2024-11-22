@@ -23,6 +23,7 @@ Features & Customisation required:
 
 Wiring:
 ![Image](https://github.com/dgplace/SmartClock/blob/main/WiringClock_bb.jpg)
+![Image](https://github.com/dgplace/SmartClock/blob/main/IMG_0897.jpeg)
 
 see BOM.xls for build of materials
 Enjoy.
