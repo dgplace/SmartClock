@@ -21,6 +21,10 @@ Features & Customisation required:
 * The pinout for the button are configured in main.py Line 22-25
 * The pinout for the LED matrix in main.py line 33-34
 
+Wiring:
+![Image](https://github.com/dgplace/SmartClock/blob/main/WiringClock_bb.jpg)
+
+see BOM.xls for build of materials
 Enjoy.
 
 
